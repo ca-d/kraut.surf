@@ -121,7 +121,7 @@ const html = `<html>
     
     var editor = document.querySelector('ace-editor');
     fetch(
-      'https://raw.githubusercontent.com/ca-d/deploy-editor/main/editor.ts'
+      'https://raw.githubusercontent.com/ca-d/kraut.surf/main/mod.ts'
     ).then(res => res.text().then(text => editor.setAttribute('value',text)));
     document.addEventListener('keydown',
       e => {
